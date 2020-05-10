@@ -1,0 +1,13 @@
+<p>このサイトは、万有引力を計算できる現役高校生が作ったサイトです。<br>
+ぜひ使ってみてください。</p>
+<form>
+  <label for="name1">M(質量1)を入力してください。</label>
+  <input type="text" name="a" id="name1" autocomplete="off">kg<br> 
+  <label for="name2">m(質量2)を入力してください。</label>
+  <input type="text" name="b" id="name2" autocomplete="off">kg<br>
+  <label for="name2">物質間の距離rを入力してください。</label>
+  <input type="text" name="c" id="name3" autocomplete="off">m<br>
+  <input type="button" onclick="op1.value = 6.7*0.00000000001 * Number(a.value) * Number(b.value) / Number(c.value)**2;" value="計算する"><br>
+  万有引力の大きさは<output name="op1">0</output>Nです。
+</form><br>
+
